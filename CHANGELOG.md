@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.5 - 2026-11-15
+
+### Fixes
+- Card popups (confirmation dialogs drawn by cards, which use `card-background-color`) are readable again: `card-background-color` is now an opaque surface, while cards keep their translucent glass via `ha-card-background`.
+
 ## 1.0.4 - 2026-11-15
 
 ### Fixes
