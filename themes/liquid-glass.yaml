@@ -21,7 +21,7 @@ Liquid Glass:
       divider-color: "rgba(0, 0, 0, 0.08)"
 
       # Cartes translucides
-      card-background-color: "rgba(255, 255, 255, 0.72)"
+      card-background-color: "#f3f4f6"
       ha-card-background: "rgba(255, 255, 255, 0.72)"
       ha-card-border-color: "rgba(255, 255, 255, 0.6)"
       ha-card-box-shadow: "0 8px 30px rgba(0, 0, 0, 0.12)"
@@ -66,7 +66,7 @@ Liquid Glass:
       divider-color: "rgba(255, 255, 255, 0.1)"
 
       # Cartes translucides
-      card-background-color: "rgba(58, 60, 66, 0.72)"
+      card-background-color: "#26282c"
       ha-card-background: "rgba(58, 60, 66, 0.72)"
       ha-card-border-color: "rgba(255, 255, 255, 0.12)"
       ha-card-box-shadow: "0 8px 30px rgba(0, 0, 0, 0.45)"
