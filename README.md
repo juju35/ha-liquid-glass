@@ -17,11 +17,18 @@ An Apple-style **Liquid Glass** theme for Home Assistant: frosted, translucent c
 |---|---|
 | <img src="https://raw.githubusercontent.com/juju35/ha-liquid-glass/main/screenshots/theme-light.png" alt="Liquid Glass light" width="400"> | <img src="https://raw.githubusercontent.com/juju35/ha-liquid-glass/main/screenshots/theme-dark.png" alt="Liquid Glass dark" width="400"> |
 
+A more-info dialog stays readable: the surface is nearly opaque and the dashboard behind it is blurred and dimmed.
+
+| Light | Dark |
+|---|---|
+| <img src="https://raw.githubusercontent.com/juju35/ha-liquid-glass/main/screenshots/popup-light.png" alt="more-info dialog light" width="400"> | <img src="https://raw.githubusercontent.com/juju35/ha-liquid-glass/main/screenshots/popup-dark.png" alt="more-info dialog dark" width="400"> |
+
 ## Features
 
 - **Frosted-glass** cards and side panel: translucent surfaces with a `backdrop-filter` blur and saturation, so what is behind shows through softly.
 - **Gray gradient** background, different for light and dark, that the glass picks up.
 - **Readable first**: high-contrast primary text, dimmed secondary text, state icons and a light border on every card so content never gets lost on the glass.
+- **Readable dialogs**: more-info and other popups use a nearly opaque surface, and the background is blurred and dimmed behind them, so they never get lost in the glass.
 - **Light and dark** modes in one theme (`modes:`), following Home Assistant's auto setting.
 - Apple-blue accent, 22px rounded cards, translucent app header; the selected side-panel item is tinted with the accent.
 

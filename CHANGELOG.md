@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.1 - 2026-11-15
+
+### Fixes
+- More-info and other dialogs are now readable: their surface is nearly opaque and the dashboard behind them is blurred and dimmed (`ha-dialog-surface-background`, `dialog-backdrop-filter`, `mdc-dialog-scrim-color`).
+- Cards are a little less transparent (0.72 opacity) so the background shows through less and content stays legible.
+
 ## 1.0.0 - 2026-11-15
 
 ### Features
