@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.8 - 2026-11-15
+
+### Fixes
+- Dark mode: secondary text is brighter (opacity 0.75) so card popups and subtitles are easier to read on the dark surfaces.
+
 ## 1.0.7 - 2026-11-15
 
 ### Changes
