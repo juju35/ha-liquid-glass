@@ -17,7 +17,7 @@ Liquid Glass:
       # Fond : dégradé gris
       lovelace-background: "linear-gradient(160deg, #eceef1 0%, #d9dbe0 55%, #c7cad1 100%)"
       primary-background-color: "#dcdee3"
-      secondary-background-color: "rgba(235, 237, 241, 0.92)"
+      secondary-background-color: "rgba(222, 226, 232, 0.96)"
       divider-color: "rgba(0, 0, 0, 0.08)"
 
       # Cartes translucides
@@ -62,7 +62,7 @@ Liquid Glass:
       # Fond : dégradé gris
       lovelace-background: "linear-gradient(160deg, #2b2c30 0%, #1d1e21 55%, #121316 100%)"
       primary-background-color: "#1d1e21"
-      secondary-background-color: "rgba(255, 255, 255, 0.12)"
+      secondary-background-color: "rgba(255, 255, 255, 0.15)"
       divider-color: "rgba(255, 255, 255, 0.1)"
 
       # Cartes translucides

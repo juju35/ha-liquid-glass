@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.6 - 2026-11-15
+
+### Fixes
+- Inner boxes / inactive tiles use a slightly deeper gray so they stand out a bit more from the glass cards (light and dark).
+
 ## 1.0.5 - 2026-11-15
 
 ### Fixes
