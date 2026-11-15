@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.2 - 2026-11-15
+
+### Fixes
+- Semantic state colors (warning, success, error, info) are now darker in light mode so light accents like amber and yellow stay legible on the glass cards, and kept vivid in dark mode.
+
 ## 1.0.1 - 2026-11-15
 
 ### Fixes
