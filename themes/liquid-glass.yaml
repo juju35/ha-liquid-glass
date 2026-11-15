@@ -78,7 +78,7 @@ Liquid Glass:
 
       # Texte lisible sur verre sombre
       primary-text-color: "#f5f5f7"
-      secondary-text-color: "rgba(235, 235, 245, 0.6)"
+      secondary-text-color: "rgba(235, 235, 245, 0.8)"
       text-primary-color: "#f5f5f7"
       disabled-text-color: "rgba(235, 235, 245, 0.35)"
       state-icon-color: "#f5f5f7"
