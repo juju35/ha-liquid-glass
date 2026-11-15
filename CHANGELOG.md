@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.3 - 2026-11-15
+
+### Fixes
+- Inner boxes inside cards (such as the download/upload panels of the box card) are visible again: `secondary-background-color` was too transparent and blended into the glass card, so it is now more opaque in both modes.
+
 ## 1.0.2 - 2026-11-15
 
 ### Fixes
