@@ -46,7 +46,8 @@ jobs:
         run: pip install pyyaml yamllint
 
       - name: Lint themes
-        run: yamllint -d "{extends: relaxed, rules: {line-length: disable}}" themes/
+        run: |
+          yamllint -d "{extends: relaxed, rules: {line-length: disable}}" themes/
 
       - name: Check theme structure
         run: |
