@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.4 - 2026-11-15
+
+### Fixes
+- Inner boxes in light mode use a soft light-gray fill instead of flat white, so they read as calm panels on the glass rather than stark white blocks.
+
 ## 1.0.3 - 2026-11-15
 
 ### Fixes
