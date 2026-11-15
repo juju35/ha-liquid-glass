@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.7 - 2026-11-15
+
+### Changes
+- Inactive tiles / inner boxes in light mode use a soft light blue-gray, so they read as calm panels that are clearly distinct from the green active tiles.
+
 ## 1.0.6 - 2026-11-15
 
 ### Fixes
