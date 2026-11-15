@@ -45,6 +45,19 @@ Liquid Glass:
       sidebar-selected-text-color: "#007aff"
       sidebar-selected-icon-color: "#007aff"
 
+      # Couleurs d'état : foncées pour rester lisibles sur le verre clair
+      warning-color: "#b26a00"
+      success-color: "#2e7d32"
+      error-color: "#c62828"
+      info-color: "#0b6bcb"
+      state-icon-active-color: "#007aff"
+      rgb-primary-color: "0, 122, 255"
+      rgb-accent-color: "40, 167, 69"
+      rgb-warning-color: "178, 106, 0"
+      rgb-success-color: "46, 125, 50"
+      rgb-error-color: "198, 40, 40"
+      rgb-info-color: "11, 107, 203"
+
     dark:
       # Fond : dégradé gris
       lovelace-background: "linear-gradient(160deg, #2b2c30 0%, #1d1e21 55%, #121316 100%)"
@@ -76,3 +89,16 @@ Liquid Glass:
       sidebar-icon-color: "rgba(235, 235, 245, 0.6)"
       sidebar-selected-text-color: "#0a84ff"
       sidebar-selected-icon-color: "#0a84ff"
+
+      # Couleurs d'état : vives et lisibles sur le verre sombre
+      warning-color: "#ffb74d"
+      success-color: "#66bb6a"
+      error-color: "#ef5350"
+      info-color: "#4aa3ff"
+      state-icon-active-color: "#0a84ff"
+      rgb-primary-color: "10, 132, 255"
+      rgb-accent-color: "48, 209, 88"
+      rgb-warning-color: "255, 183, 77"
+      rgb-success-color: "102, 187, 106"
+      rgb-error-color: "239, 83, 80"
+      rgb-info-color: "74, 163, 255"
