@@ -4,6 +4,8 @@ Liquid Glass:
   accent-color: "#30d158"
   app-header-background-color: var(--ha-card-background)
   app-header-text-color: var(--primary-text-color)
+  # Dashboard header: blurred like the cards, so content scrolling under it is frosted
+  app-header-backdrop-filter: "blur(22px) saturate(180%)"
 
   # ==== Frosted-glass cards (light and dark) ====
   ha-card-border-radius: "22px"

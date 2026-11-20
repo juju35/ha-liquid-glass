@@ -31,7 +31,7 @@ A more-info dialog stays readable: the surface is nearly opaque and the dashboar
 - **Readable dialogs**: more-info and other popups use a nearly opaque surface, and the background is blurred and dimmed behind them, so they never get lost in the glass.
 - **Light and dark** modes in one theme (`modes:`), following Home Assistant's auto setting.
 - **Readable state colors**: the status palette of the ha-* cards (green OK, amber active, blue open, cyan cold, purple media, red alert, gray idle), the same as the ha-neutral theme — darker on the light glass, brighter on the dark one — with matching `rgb-*` variables.
-- Apple-blue accent, 22px rounded cards, translucent app header; the selected side-panel item is tinted with the accent.
+- Apple-blue accent, 22px rounded cards, translucent, frosted app header; the selected side-panel item is tinted with the accent.
 
 ## Prerequisites
 
