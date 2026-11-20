@@ -34,7 +34,8 @@ Liquid Glass:
       # Text readable on light glass
       primary-text-color: "#1c1c1e"
       secondary-text-color: "rgba(28, 28, 30, 0.6)"
-      text-primary-color: "#1c1c1e"
+      # Text on the accent (buttons, badges): white, as Apple and Home Assistant
+      text-primary-color: "#ffffff"
       disabled-text-color: "rgba(28, 28, 30, 0.35)"
       state-icon-color: "#1c1c1e"
       rgb-primary-text-color: "28, 28, 30"
