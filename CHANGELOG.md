@@ -1,6 +1,10 @@
 # Changelog
 
-## 1.0.9 - 2026-11-20
+## 1.1.0 - 2026-11-20
+
+### Features
+- Status palette of the ha-* cards, the same as the ha-neutral theme, in light and dark: `green`, `amber`, `orange`, `yellow`, `blue`, `light-blue`, `cyan`, `teal`, `purple`, `deep-purple`, `red` and `grey-color`, each with its `rgb-*` variable. Home Assistant's state colors (a light on, cooling, media playing…) and the ha-* cards' state lines now read clearly on the light glass, and both ha-* themes tint the cards alike.
+- `success`, `warning`, `error` and `info-color` follow that palette (green, amber, red, blue).
 
 ### Fixes
 - Light mode: `rgb-accent-color` now matches the green accent (`#30d158`); it was a different, darker green, so translucent accent tints did not match the accent itself.
@@ -9,7 +13,7 @@
 - Theme file comments in English.
 
 ### Maintenance
-- Validate: `setup-python` pinned to a commit, and a new check that every `rgb-*` variable matches the color it shadows.
+- Validate: `setup-python` pinned to a commit, and a new check that every `rgb-*` variable matches the color it shadows (an `rgb-*` without its `#rrggbb` color fails too).
 
 ## 1.0.8 - 2026-11-15
 
