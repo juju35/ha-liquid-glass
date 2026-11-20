@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.0.9 - 2026-11-20
+
+### Fixes
+- Light mode: `rgb-accent-color` now matches the green accent (`#30d158`); it was a different, darker green, so translucent accent tints did not match the accent itself.
+- Dark mode: the accent is Apple's dark-mode blue `#0a84ff`, which its `rgb-primary-color`, the selected side-panel item and the active state icons already used.
+- `rgb-primary-text-color` is set in both modes, so hovers and ripples tinted with it match the theme's text color.
+- Theme file comments in English.
+
+### Maintenance
+- Validate: `setup-python` pinned to a commit, and a new check that every `rgb-*` variable matches the color it shadows.
+
 ## 1.0.8 - 2026-11-15
 
 ### Fixes
