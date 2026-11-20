@@ -66,11 +66,13 @@ jobs:
                   for mode in ("light", "dark"):
                       merged = {**{k: v for k, v in (vars or {}).items() if k != "modes"}, **(modes.get(mode) or {})}
                       for key, value in merged.items():
-                          if not key.startswith("rgb-") or key[4:] not in merged:
+                          if not key.startswith("rgb-"):
                               continue
+                          if key[4:] not in merged:
+                              print(f"::error file={path}::'{name}' {mode}: {key} has no {key[4:]} to match"); ok = False; continue
                           color = str(merged[key[4:]])
                           if not re.fullmatch(r"#[0-9a-fA-F]{6}", color):
-                              continue
+                              print(f"::error file={path}::'{name}' {mode}: {key[4:]} must be a #rrggbb color, got '{color}'"); ok = False; continue
                           want = ", ".join(str(int(color[i:i + 2], 16)) for i in (1, 3, 5))
                           if str(value).replace(" ", "") != want.replace(" ", ""):
                               print(f"::error file={path}::'{name}' {mode}: {key} is '{value}', {key[4:]} {color} is '{want}'"); ok = False
