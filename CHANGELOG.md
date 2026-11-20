@@ -5,6 +5,7 @@
 ### Features
 - Status palette of the ha-* cards, the same as the ha-neutral theme, in light and dark: `green`, `amber`, `orange`, `yellow`, `blue`, `light-blue`, `cyan`, `teal`, `purple`, `deep-purple`, `red` and `grey-color`, each with its `rgb-*` variable. Home Assistant's state colors (a light on, cooling, media playing…) and the ha-* cards' state lines now read clearly on the light glass, and both ha-* themes tint the cards alike.
 - `success`, `warning`, `error` and `info-color` follow that palette (green, amber, red, blue).
+- Light amber `#9f691b` and yellow `#8e7109` (with their `rgb-*` and `warning-color`) match ha-neutral's darker values, which reach a 4.5:1 contrast on white.
 - Light mode: text on the accent (`text-primary-color`, used on blue buttons and badges) is white, as in Apple's and Home Assistant's own themes, instead of near-black.
 - The translucent dashboard header is frosted like the cards (`app-header-backdrop-filter`), so content scrolling under it is blurred instead of showing through.
 
