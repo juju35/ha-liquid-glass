@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.1.1 - 2026-11-20
+
+### Fixes
+- Status colors are readable as text on the glass, in light and dark mode: every one of them (`green`, `amber`, `orange`, `yellow`, `blue`, `light-blue`, `cyan`, `teal`, `purple`, `deep-purple`, `red`, `grey`, and `success`/`warning`/`error`/`info`, with their `rgb-*`) now reaches a 4.5:1 contrast on the frosted card and its inner tiles, measured over the lightest and darkest stops of the background gradient, and 3:1 as an icon on its tinted pastille. Light mode: green, amber, orange, yellow, blue, light-blue, cyan, teal and grey are darker. Dark mode: orange, blue, light-blue, purple, deep-purple, red and grey are lighter. Hues are unchanged, and ha-neutral uses the same palette.
+- Dark mode: the inner tiles (`secondary-background-color`) are a fainter white veil on the glass card (8% instead of 15%); at 15% no red, blue or purple could reach 4.5:1 on them without turning pastel and purple and deep-purple becoming the same color.
+
+### Maintenance
+- Validate: a new check computes the contrast of every status color on the theme's frosted card (over the page gradient), tile and dialog backgrounds, in light and dark, and fails below 4.5:1 (text) or 3:1 (icon on its pastille).
+
 ## 1.1.0 - 2026-11-20
 
 ### Features
