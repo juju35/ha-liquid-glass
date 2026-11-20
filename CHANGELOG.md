@@ -1,5 +1,24 @@
 # Changelog
 
+## 1.1.0 - 2026-11-20
+
+### Features
+- Status palette of the ha-* cards, the same as the ha-neutral theme, in light and dark: `green`, `amber`, `orange`, `yellow`, `blue`, `light-blue`, `cyan`, `teal`, `purple`, `deep-purple`, `red` and `grey-color`, each with its `rgb-*` variable. Home Assistant's state colors (a light on, cooling, media playing…) and the ha-* cards' state lines now read clearly on the light glass, and both ha-* themes tint the cards alike.
+- `success`, `warning`, `error` and `info-color` follow that palette (green, amber, red, blue).
+- Light amber `#9f691b` and yellow `#8e7109` (with their `rgb-*` and `warning-color`) match ha-neutral's darker values, which reach a 4.5:1 contrast on white.
+- Light mode: text on the accent (`text-primary-color`, used on blue buttons and badges) is white, as in Apple's and Home Assistant's own themes, instead of near-black.
+- The translucent dashboard header is frosted like the cards (`app-header-backdrop-filter`), so content scrolling under it is blurred instead of showing through.
+
+### Fixes
+- Light mode: `rgb-accent-color` now matches the green accent (`#30d158`); it was a different, darker green, so translucent accent tints did not match the accent itself.
+- Dark mode: the accent is Apple's dark-mode blue `#0a84ff`, which its `rgb-primary-color`, the selected side-panel item and the active state icons already used.
+- `rgb-primary-text-color` is set in both modes, so hovers and ripples tinted with it match the theme's text color.
+- Theme file comments in English.
+
+### Maintenance
+- Validate: `setup-python` pinned to a commit, and a new check that every `rgb-*` variable matches the color it shadows (an `rgb-*` without its `#rrggbb` color fails too).
+- Removed the unused `docs/preview.png` (nothing references it).
+
 ## 1.0.8 - 2026-11-15
 
 ### Fixes

@@ -24,7 +24,7 @@ npx --yes jscpd@5.4.2 .
 ```
 
 ## Releasing — how it works here
-A release is **automatic**: on push to `main`, if `package.json` carries a version with
+A release is **automatic**: on push to `main`, if the top `CHANGELOG.md` entry carries a version with
 no matching tag, the Release workflow publishes `vX.Y.Z`. **Never create a tag by hand.**
 
 The `Version consistency` check (validate.yml) requires the **same version in every place**,
